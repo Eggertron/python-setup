@@ -1,2 +1,2 @@
 # python-setup
-Python-Setup Scripts
+A simple script to install python on your system using pyenv.

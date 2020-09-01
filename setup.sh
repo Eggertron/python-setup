@@ -28,13 +28,11 @@ eval "$(pyenv init -)"
 eval "$(pyenv virtualenv-init -)"
 EOF
 
-# source bashrc
-source ~/.bashrc
 
 # Install Python 
 PVERSION=3.6.12
 echo "Installing Python Version $PVERSION to start you off..."
-pyenv install $PVERSION
+$HOME/.pyenv/bin/pyenv install $PVERSION
 
 # Final Remarks
 DOCS_URL="https://github.com/pyenv/pyenv/blob/master/COMMANDS.md"
